@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap');
-.btn {
-flex-wrap: wrap;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap");
 
+.btn {
+  flex-wrap: wrap;
 
   &__right {
     font-size: 22px;
@@ -11,48 +11,258 @@ flex-wrap: wrap;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 170, 0);
     float: right;
-    margin-top: -10px;
+    margin-top: -1px;
     margin-right: -5px;
   }
   .icon {
     margin-right: 0.5rem;
     font-size: 1.5rem;
-    
-    
+    margin-left: 1rem;
+    padding-top: 0.5rem;
   }
   &__left {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #282828;
     border: none;
     font-size: 1rem;
     float: left;
     margin-top: 5px;
     text-align: center;
-    
-
-   
+    vertical-align: middle;
   }
 }
 
 .title {
   font-size: 4rem;
-  font-family: 'Playfair Display SC', serif;  text-align: center;
-  margin-top: 7rem;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+  margin-top: 9rem;
 
   &__sub {
-      font-size: 2.2rem;
-      margin-left: 9rem;
-      margin-right: 9rem;
-      text-align: center;
+    font-size: 2.2rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    text-align: center;
+    padding-top: 2rem;
   }
-  &__sub-end{
+  &__sub-end {
     margin-top: 9rem;
     font-size: 1.5rem;
     text-align: center;
   }
 }
 
+.container {
+  flex-wrap: wrap;
+}
+
+.post {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+#three-col {
+  width: 950px;
+  margin: 2rem auto 2rem auto;
+  /* Para ordenar en columnas */
+  column-count: 3; //propiedad de css3
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  -o-column-count: 3;
+  /* Para dar espacio entre columnas */
+  column-gap: 3em;
+  -moz-column-gap: 3em;
+  -webkit-column-gap: 3em;
+  -o-column-gap: 3em;
+}
+
 .ctn {
+  margin-top: 5rem;
+  margin-bottom: 15rem;
   flex-wrap: wrap;
 
+  &__btn1 {
+    background: rgb(0, 170, 0);
+    height: 3.5rem;
+    width: 15rem;
+    margin-left: 26rem;
+    float: left;
+    border: none;
+  }
+  &__btn1:hover {
+    background: yellowgreen;
+  }
+  &__btn2 {
+    background: white;
+    border: rgb(85, 84, 84) solid;
+    height: 3.5rem;
+    width: 15rem;
+    float: right;
+    margin-right: 26rem;
+  }
+  &__btn2:hover {
+    background: rgb(0, 170, 0);
+    color: white;
+  }
+
+  &__title {
+    color: white;
+    font-size: 1rem;
+  }
+  &__title-btn2 {
+    color: black;
+    font-size: 1rem;
+  }
+  &__title-btn2:hover {
+    color: white;
+  }
+  &__link-btn {
+    text-decoration: none;
+  }
+}
+
+.ourTeam {
+  flex-wrap: wrap;
+  text-align: center;
+
+  &__titl {
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  &__sub-titl {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 5rem;
+    vertical-align: middle;
+  }
+  &__img-icon {
+    width: 4em;
+    height: 4em;
+    vertical-align: middle;
+  }
+  &__area {
+    color: rgb(146, 145, 145);
+    vertical-align: middle;
+  }
+  &__name {
+    vertical-align: middle;
+  }
+}
+
+.title {
+  margin-bottom: 7rem;
+}
+
+#threeCol-ourT {
+  width: 950px;
+  margin: 2rem auto 2rem auto;
+  /* Para ordenar en columnas */
+  column-count: 3; //propiedad de css3
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  -o-column-count: 3;
+  /* Para dar espacio entre columnas */
+  column-gap: 3em; //define espacio entre columnas
+  -moz-column-gap: 3em;
+  -webkit-column-gap: 3em;
+  -o-column-gap: 3em;
+  column-rule: 1px solid #bbb; //coloca separador de columnas
+}
+
+.footer {
+  background: black;
+  position: relative;
+
+  &__social-icon {
+    margin-top: 2.5rem;
+    margin: 1.5rem;
+    color: white;
+  }
+  &__sixCol {
+    width: 1250px;
+    margin: 3rem auto 4rem auto;
+    /* Para ordenar en columnas */
+    column-count: 4; //propiedad de css3
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    -o-column-count: 4;
+    /* Para dar espacio entre columnas */
+    column-gap: 10em; //define espacio entre columnas
+    -moz-column-gap: 10em;
+    -webkit-column-gap: 10em;
+    -o-column-gap: 10em;
+  }
+  &__title-col {
+    color: white;
+  }
+
+  &__title-col2 {
+    color: yellow;
+    margin-right: 3rem;
+  }
+
+  &__top-col {
+    color: grey;
+    display: flex;
+  }
+
+  &__top-col1 {
+    color: white;
+    display: flex;
+  }
+
+  &__infoLinks {
+    height: 100%;
+  }
+}
+
+#social-icons {
+  position: absolute;
+  top: 0;
+  right: 0;  
+  margin-right: 2rem;
+}
+
+.line {
+  /*   border-top: 0.5px solid pink; //sirve para hacer una línea horizonatl
+  margin-top: 3rem;
+  height: 2px;
+  padding: 0;
+  margin-bottom: 20rem;
+  margin: 20px auto 0 auto; */
+
+  /*   height: 1px; // //sirve para hacer una línea horizonatl
+  border: 0;
+  background-color: yellow; */
+  border: none;
+  border-width: 1;
+  border-style: solid;
+  margin: 3rem;
+}
+
+/* #icons {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ 
+ 
+}  */
+
+//para eliminar los margenes de la pantalla
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//para hacer una línea horizontal separadora
+hr {
+  height: 1px;
+  border: 0;
+  background-color: grey;
+  
 }
