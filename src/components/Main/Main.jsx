@@ -1,17 +1,17 @@
 import React from "react";
-//import Header from "../Header/Header";
+import Header from "../Header/Header";
 import Section from "../Section/Section";
 import SectionTwo from "../Section/SectionTwo";
 import SectionThree from "../../stylesheets/layout/SectionThree";
 import PostDaily from "../PostDaily/PostDaily";
 import Buttons from "../Buttons/Buttons";
 import OurTeam from "../OurTeam/OurTeam";
-//import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer";
 
 const Main = () => {
   return (
       <div className="container">
-    {/*     <Header /> */}
+        <Header />
       <br />
       <div>
         <div className="title">MAGAZINE WEBSITE</div>
@@ -31,7 +31,7 @@ const Main = () => {
       <PostDaily />
       <Buttons />
       <OurTeam />
-    {/*   <Footer /> */}
+      <Footer />
     </div>
   );
 };
