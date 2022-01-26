@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Section from "../Section/Section";
 import SectionTwo from "../Section/SectionTwo";
-import SectionThree from "../../stylesheets/layout/SectionThree";
+import SectionThree from "../Section/SectionThree";
 import PostDaily from "../PostDaily/PostDaily";
 import Buttons from "../Buttons/Buttons";
 import OurTeam from "../OurTeam/OurTeam";
